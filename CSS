@@ -6,29 +6,29 @@
 }
 
 body {
-    background: linear-gradient(135deg, #1e6091 0%, #1a4968 100%); /* Un azul corporativo que combina con tu logo */
+    background: linear-gradient(135deg, #1e6091 0%, #1a4968 100%); 
     min-height: 100vh;
     display: flex;
-    flex-direction: column; /* Alinea el logo arriba y la tarjeta abajo */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
 }
 
-/* Contenedor del Logo (Fuera de la tarjeta) */
+/* Contenedor del Logo (Fuera de la tarjeta) 
 .logo-container-interno {
     width: 100%;
     display: flex;
-    justify-content: center; /* Alinea el logo a la izquierda, a juego con el título */
-    margin-bottom: 25px;         /* Espacio entre el logo y la pregunta de la luz */
+    justify-content: center; 
+    margin-bottom: 25px;         
 }
 
 .logo-imagen-interna {
-    max-width: 350px;            /* Un tamaño un poco más compacto para que encaje mejor dentro de la columna */
+    max-width: 350px;           
     height: auto;
 }
 
-/* Contenedor principal (La tarjeta blanca) */
+/* Contenedor principal */
 .landing-container {
     background: #ffffff;
     max-width: 950px;
@@ -36,13 +36,13 @@ body {
     border-radius: 16px;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas perfectas */
+    grid-template-columns: 1fr 1fr; 
     overflow: hidden;
 }
 
 /* Sección de información (Izquierda) */
 .info-section {
-    background-color: #f8fafc; /* Un gris muy sutil para dar contraste */
+    background-color: #f8fafc; 
     padding: 50px;
     display: flex;
     flex-direction: column;
@@ -64,12 +64,12 @@ body {
 }
 
 .features p {
-    color: #1e6091; /* Color azul a juego */
+    color: #1e6091; 
     font-weight: 600;
     margin-bottom: 12px;
 }
 
-/* Sección del Formulario (Derecha) */
+/* Sección del Formulario */
 .form-section {
     padding: 50px;
     background-color: #ffffff;
@@ -121,7 +121,7 @@ body {
 /* Botón de envío */
 .btn-enviar {
     width: 100%;
-    background-color: #0284c7; /* Azul llamativo para el botón de acción */
+    background-color: #0284c7; 
     color: white;
     border: none;
     padding: 14px;
